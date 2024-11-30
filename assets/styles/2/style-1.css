@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;600;700;900&display=swap");
+
+:root {
+  --themeColor: #a094d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: var(--themeColor); */
+  background-image: linear-gradient(45deg, #e0b3c1, #fc8dc4);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+  }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f1f0f0;
+  height: 90px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.logo label {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.3ch;
+  transform: translateY(-15px);
+  font-size: 60%;
+}
+
+.footer {
+  background: #fff;
+  text-decoration: none;
+  width: 100vw;
+  font-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

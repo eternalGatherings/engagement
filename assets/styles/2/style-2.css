@@ -1,0 +1,56 @@
+.container {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents {
+  background: #eeeeee;
+  border-radius: 8px;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gmaps {
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1230px) {
+  .contents {
+    width: 90%;
+    font-size: 5px;
+  }
+
+  .svg-img-en, .svg-img-kn {
+    margin-top: 13%;
+  }
+
+  .topleft-img {
+    width: 45%;
+  }
+
+  .topright-img {
+    width: 45%;
+  }
+
+  .gmaps {
+    width: 90%;
+    height: 200px;
+  }
+
+  .footer {
+    font-size: 50%;
+  }
+}
+
